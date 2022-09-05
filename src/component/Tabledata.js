@@ -8,7 +8,7 @@ class TableData extends React.Component {
           <thead className="list">
             <tr>
               <th className="list">
-                <b>SLNO</b>
+                <b>Slno</b>
               </th>
 
               <th className="list">

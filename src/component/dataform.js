@@ -64,12 +64,8 @@ class DataForm extends React.Component {
     });
   }
 
-  setUpdate(data1) {
-    console.log(data1);
-  }
-
+ 
   updateItem(data) {
-    console.log("data ---->" + data);
     this.setState({
       items: data,
     });

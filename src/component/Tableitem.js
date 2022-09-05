@@ -1,6 +1,6 @@
 import React from "react";
 
-class ListItems extends React.Component {
+class TableItem extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -43,7 +43,7 @@ class ListItems extends React.Component {
       newObj.lname = ele.target.value;
     }
    
-    console.log(newObj);
+  
     newArray.splice(index, 1, newObj);
     this.setState({
       ArrayList: newArray,
@@ -98,4 +98,4 @@ class ListItems extends React.Component {
   }
 }
 
-export default ListItems;
+export default TableItem;
